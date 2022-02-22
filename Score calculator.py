@@ -9,6 +9,8 @@ def computegrade(score):
             return 'C'
         if score >= 0.6:
             return 'D'
+        if score >= 0.3:
+            return 'E'
         return 'F'
     return 'Entry out of range'
 
